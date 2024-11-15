@@ -1,0 +1,124 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Imagen de privacidad */
+.img-privacidad {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.img-privacidad img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Portada de la política */
+.portadaPolitica {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.portadaPolitica img {
+    width: 100%;
+}
+
+/* Índice de la política */
+.indicePolitica {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.indicePolitica h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.indicePolitica ul {
+    list-style: none;
+    padding: 0;
+}
+
+.indicePolitica li {
+    margin: 10px 0;
+}
+
+.indicePolitica a {
+    text-decoration: none;
+    color: #119905;
+    font-weight: bold;
+}
+
+.indicePolitica a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido de la política */
+.politicaContenido {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.politicaContenido h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #119905;
+    padding-bottom: 5px;
+}
+
+.politicaContenido p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+.politicaContenido ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.politicaContenido li {
+    margin-bottom: 5px;
+}
+
+/* Botón de mostrar/ocultar índice */
+.toggle-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}

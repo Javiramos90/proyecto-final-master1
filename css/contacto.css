@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    padding: 120px 0px 0px 0px;
+}
+
+.contact h1{
+    font-family: cursive ;
+    font-size: 40px;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    margin: 4rem;
+}
+#contactForm{
+    border: 1px solid #52ad6e;
+    margin: 2rem 30rem;
+    text-align: center;
+    background-color: rgb(245, 255, 209);
+    border-radius: 50px;
+}
+#titleForm{
+    margin: 15px;
+    padding: 0;
+}
+.item-contact{
+padding: 5px 12rem;
+margin: 20px;
+ text-align: start;
+ display: flex;
+ flex-direction: column;
+ justify-content: start;   
+}
+
+#check-contact{
+    margin: 5px;
+    align-items: start;
+}
+
+.btn-contact{
+    color: white;
+    background-color: rgb(35, 131, 35);
+   padding: 15px 50px;
+   margin-bottom: 30px;
+}
+
+textarea{
+    resize: none;
+    height: 80px;
+}
+
+#nombreForm{
+height: 30px;
+}
+
+#emailForm{
+height: 30px;
+}
+
