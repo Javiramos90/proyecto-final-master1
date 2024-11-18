@@ -19,10 +19,10 @@ include_once './vistas/encabezado.php';
             <img data-id="sevilla" src="Imagenes/Lugares/Andalucia/sevilla_TorredelOro.png" alt="">
         </section>
     </main>
-    <footer>
-
-    </footer>
-
+<?php
+include './vistas/footer.php';
+?>
+<script src="js\selectProvincia.js"></script>
 </body>
 
 </html>

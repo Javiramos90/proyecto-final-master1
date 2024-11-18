@@ -18,11 +18,15 @@ include_once './vistas/encabezado.php';
             <img data-id="malaga" src="Imagenes/Lugares/Andalucia/malaga1.png" alt="">
             <img data-id="sevilla" src="Imagenes/Lugares/Andalucia/sevilla1.png" alt="">
         </section>
+     
     </main>
-    <footer>
-
-    </footer>
-
+    <div class="info"></div>
+    
+<?php
+include './vistas/footer.php';
+?>
+<script src="js\selectProvincia.js"></script>
+<script src="js\texto.js"></script>
 </body>
 
 </html>

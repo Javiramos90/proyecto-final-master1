@@ -273,11 +273,11 @@ h3{
 #Map{
   display: none;
 }
-
+/* Estilos pie de pagina */
 footer{
   height: auto;
   background-color: #f3ecaa;
-  border: 3px solid #6dda9c;
+  border-top: 3px solid #2E8B57;
   border-radius: 2px 0px 0px 2px;
   width: 100%;
 }
@@ -287,8 +287,8 @@ footer{
   flex-direction: row;
   justify-content: center;
   margin: 20px 0px;
-  
 }
+
 .formNombre{
   padding: 0px 10px;
 }
@@ -306,6 +306,7 @@ footer{
   align-content: center;
   align-items: stretch;
 }
+
 .botonFormulario input{
   width: 20px;
   padding: 8px;
@@ -314,37 +315,74 @@ footer{
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 .btn-form{
   margin: 0rem 50rem;
+  padding: 5px 70px;
+  font-size: 20px;
 }
 
 .check{
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin: 0px 700px;
+  margin: 0px 800px;
   padding: 1% 0%;
 }
 
 .check p{
   width: 40vh;
 }
+
 .formNombre input{
-  height: 30px;
-  width: 300px;
+  height: 40px;
+  width: 500px;
   border-radius: 5px;
 }
+
 .formEmail input{
-  height: 30px;
-  width: 300px;
+  height: 40px;
+  width: 500px;
   border-radius: 5px;
 }
 
 .endPage p{
-  text-align: center;
-  margin: 2px;
+  text-align: start;
+  margin: 1px;
 }
 
 .politica{
   margin: 0 auto;
+}
+.btn-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-footer {
+  text-decoration: none;
+  background-color: #2E8B57;
+  margin: 10px 30px;
+  font-size: 20px;
+  padding: 5px 40px;
+  color: white;
+}
+
+.btn-footer:hover{
+background-color: #1a5a36;
+font-size: 25px;
+}
+
+.redes_sociales{
+  display: flex;
+  justify-content: center;;
+}
+
+.redes_sociales a{
+  padding: 0px 10px;
+}
+
+.copyright{
+  text-align: center;
 }

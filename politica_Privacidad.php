@@ -157,4 +157,7 @@ include './vistas/encabezado.php';
             }
         });
     </script>
+<?php
+include './vistas/footer.php';
+?>
 </body>

@@ -24,7 +24,8 @@
     <script src="js/jquery.qtip.min.js"></script>
     <script src="js/javascript.js"></script>
     <!-- fin importaciones mapa España -->
-     <!--  -->
-    <script src="js/imagenes.js"></script>
+     <!-- visualizar en el mapa las provincias al pasar el raton por su comunidad autonoma  -->
+    <script src="js/mapa-comunidades.js"></script>
+    <!-- fin visualizar en el mapa las provincias al pasar el raton por su comunidad autonoma  -->
     <title>SRF</title>
 </head>

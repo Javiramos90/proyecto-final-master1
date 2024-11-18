@@ -39,37 +39,17 @@ include './vistas/encabezado.php';
 
         <h3>¡BIENVENID@ A PROXIMO DESTINO!</h3>
 
-        <div class="mapa">
-            <?php
-            include_once "mapa.html";
-            ?>
+        <div id="map">
+            <div class="mapa">
+                <?php
+                include_once "mapa.html";
+                ?>
+            </div>
         </div>
     </main>
-    <footer>
-        <div class="endPage">
-            <div class="formNombre">
-                <p>Nombre</p>
-                <input type="text" placeholder="Nombre/Name">
-            </div>
-            <div class="formEmail">
-                <p>Correo</p>
-                <input type="email" placeholder="Correo Electronico/Email">
-            </div>
-        </div>
-        <div class="botonFormulario">
-            <button class="btn-form">¡Suscribirme!</button>
-            <div class="check">
-                <input type="checkbox">
-                <p>&nbsp;He leido y acepto la Politica de Privacidad</p>
-            </div>
-            <div class="politica">
-                <!--Enlace para ventana modal de politica de privacidad  -->
-                <p>Los datos de carácter personal serán tratados de forma segura, cumpliendo con el RGPD (Reglamento
-                    General de Protección de Datos). Podrás ejercer tus derechos de acceso, rectificación, limitación y
-                    eliminación definitiva de los datos. Más información en nuestra &nbsp; <a href="politica_Privacidad.php" class="open-modal-btn"><b>política de privacidad.</b></a></p>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include './vistas/footer.php';
+    ?>
     <script src="js/principal.js"></script>
 </body>
 

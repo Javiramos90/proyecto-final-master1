@@ -14,10 +14,10 @@ include_once './vistas/encabezado.php';
             <img data-id="oviedo" src="Imagenes/Lugares/Asturias/oviedo.png" alt="">
         </section>
     </main>
-    <footer>
-
-    </footer>
-
+<?php
+include './vistas/footer.php';
+?>
+<script src="js\selectProvincia.js"></script>
 </body>
 
 </html>

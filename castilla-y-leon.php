@@ -20,10 +20,10 @@ include_once './vistas/encabezado.php';
             <img data-id="zamora" src="Imagenes/Lugares/castilla y leon/zamora.png" alt="">
         </section>
     </main>
-    <footer>
-
-    </footer>
-
+<?php
+include './vistas/footer.php';
+?>
+<script src="js\selectProvincia.js"></script>
 </body>
 
 </html>

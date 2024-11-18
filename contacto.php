@@ -36,10 +36,9 @@ include_once './vistas/encabezado.php';
             <button class="btn-contact">Enviar</button>
         </form>
     </main>
-    <footer>
-
-    </footer>
-
+<?php
+include './vistas/footer.php';
+?>
 </body>
 
 </html>

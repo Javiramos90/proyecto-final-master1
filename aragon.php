@@ -14,10 +14,10 @@ include_once './vistas/encabezado.php';
             <img data-id="zaragoza" src="Imagenes/Lugares/Aragon/zaragoza.png" alt="">
         </section>
     </main>
-    <footer>
-
-    </footer>
-
+<?php
+include './vistas/footer.php';
+?>
+<script src="js\selectProvincia.js"></script>
 </body>
 
 </html>
