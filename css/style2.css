@@ -354,6 +354,12 @@ footer{
 .politica{
   margin: 0 auto;
 }
+.politica a{
+  color: #2E8B57;
+  text-decoration: none;
+}
+
+
 .btn-link{
   display: flex;
   flex-direction: row;

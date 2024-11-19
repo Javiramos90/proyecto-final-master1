@@ -9,14 +9,11 @@ include_once './vistas/encabezado.php';
     </header>
     <main>
         <section id="image-gallery">
-            <img data-id="almeria" src="Imagenes/Lugares/Andalucia/alcazaba-almeria.png" alt="">
-            <img data-id="cadiz" src="Imagenes/Lugares/Andalucia/cadiz-catedral.png" alt="">
-            <img data-id="cordoba" src="Imagenes/Lugares/Andalucia/cordoba_mezquita.png" alt="">
-            <img data-id="huelva" src="Imagenes/Lugares/Andalucia/el-rocio-huelva.png" alt="">
-            <img data-id="granada" src="Imagenes/Lugares/Andalucia/granada_Alhambra.png" alt="">
-            <img data-id="jaen" src="Imagenes/Lugares/Andalucia/jaen-catedral.png" alt="">
-            <img data-id="malaga" src="Imagenes/Lugares/Andalucia/malaga.png" alt="">
-            <img data-id="sevilla" src="Imagenes/Lugares/Andalucia/sevilla_TorredelOro.png" alt="">
+            <img data-id="cabrera" src="Imagenes/Lugares/Baleares/cabrera.png" alt="">
+            <img data-id="formentera" src="Imagenes/Lugares/Baleares/formentera.png" alt="">
+            <img data-id="ibiza" src="Imagenes/Lugares/Baleares/ibiza.png" alt="">
+            <img data-id="mayorca" src="Imagenes/Lugares/Baleares/mayorca.png" alt="">
+            <img data-id="menorca" src="Imagenes/Lugares/Baleares/menorca.png" alt="">
         </section>
     </main>
 <?php

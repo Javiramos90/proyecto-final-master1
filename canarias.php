@@ -9,15 +9,12 @@ include_once './vistas/encabezado.php';
     </header>
     <main>
         <section id="image-gallery">
-            <img data-id="almeria" src="Imagenes/Lugares/Andalucia/alcazaba-almeria.png" alt="">
-            <img data-id="cadiz" src="Imagenes/Lugares/Andalucia/cadiz-catedral.png" alt="">
-            <img data-id="cordoba" src="Imagenes/Lugares/Andalucia/cordoba_mezquita.png" alt="">
-            <img data-id="huelva" src="Imagenes/Lugares/Andalucia/el-rocio-huelva.png" alt="">
-            <img data-id="granada" src="Imagenes/Lugares/Andalucia/granada_Alhambra.png" alt="">
-            <img data-id="jaen" src="Imagenes/Lugares/Andalucia/jaen-catedral.png" alt="">
-            <img data-id="malaga" src="Imagenes/Lugares/Andalucia/malaga.png" alt="">
-            <img data-id="sevilla" src="Imagenes/Lugares/Andalucia/sevilla_TorredelOro.png" alt="">
-        </section>
+            <img data-id="fuerteventura" src="Imagenes/Lugares/Canarias/fuerteventura.png" alt="">
+            <img data-id="la-gomera" src="Imagenes/Lugares/Canarias/la_gomera.png" alt="">
+            <img data-id="lanzarote" src="Imagenes/Lugares/Canarias/lanzarote.png" alt="">
+            <img data-id="las-palmas" src="Imagenes/Lugares/Canarias/el-rocio-huelva.png" alt="">
+            <img data-id="tenerife" src="Imagenes/Lugares/Canarias/granada_Alhambra.png" alt="">
+           </section>
     </main>
 <?php
 include './vistas/footer.php';

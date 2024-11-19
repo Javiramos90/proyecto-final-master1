@@ -20,21 +20,140 @@ section img:hover{
     width: 640px;
 }
 
-/* article{
-    height: 150px;
-    overflow: hidden;
-    transition: all 1s ease-in-out;
+/* 
+#image-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-article:hover{
-    height: 300px;
+.image-container{
+    margin-top: 20px;
+    display: flex;
+    height: 430px;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 100px;
+    flex-wrap: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.image-container img:hover{
+    cursor: crosshair;
+    width: 640px;
+}
+ */
+
+ /* estilos contenido en las imagenes */
+
+ .tittle{
+    background-color: #52ad6e;
+    font-size: 25px;
+    color: white;
+    margin: 0px 475px;
+    border: 3px solid #f3ecaa;
+    border-bottom: none;
+    border-radius: 60px 60px 0px 0px;
+ }
+
+ .imageProvince{
+    text-align: center;
+    border: 3px solid #f3ecaa;
+    border-top: none;
+    margin: 0px 475px;
+    padding: 0px;
+    background-color: #00000078;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 25px;
+ }
+ .imageProvince img{
+    border-radius: 0px 0px 8px 8px;
+ }
+.info h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.info p{
+    text-align: justify;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-provincia{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+hr{
+    margin: 0px 100px;
+}
+
+.comer-provincia img{
+    border: 2px solid #52ad6e;
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+}
+
+.comer-provincia p{
+    border: 2px solid #52ad6e;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 80px;
+    font-size: larger;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    /* background-color: #52ad6e; */
+}
+.comer-provincia{
+    background-color: #52ad6e;
+}
+.visitar-provicia img{
+    border: 2px solid #52ad6e;
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+}
+
+.visitar-provicia p{
+    border: 2px solid #52ad6e;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 80px;
+    font-size: larger;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    background-color: #52ad6e;
+}
+
+.comer-provincia:hover{
+    animation: comerProvincia 2s both;
+}
+
+@keyframes comerProvincia{
+  0%{
+    margin-bottom: 0;
+    background-color: #52ad6e;
+    border: 2px solid #52ad6e;
+    border-radius: 0 0 20px 20px;
+    z-index: 0;
+  }
+
+  100%{
+    margin-bottom: 10px ;
+    background-color: #04581e;
+    border: 2px solid #04581e;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+  }
+}
+.visitar-provincia:hover{
     
 }
-#info-box {
-    display: none; /* Ocultar la caja de texto por defecto */
-    /*position: absolute;
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 5px;
-    z-index: 10;
-} */
